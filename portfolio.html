@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" href="colour.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(67, 198, 73, 0.2);
+      padding: 40px 30px;
+      text-align: center;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    h1, h2 {
+      color: #43c6ac;
+      font-size: 2.3rem;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      color: #333;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .highlight {
+      color: #ff7e5f;
+      font-weight: bold;
+    }
+
+    .myskills {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .skills-section {
+      display: inline-block;
+      background: #43c643;
+      color: #ffffff;
+      padding: 8px 18px;
+      margin: 8px 6px;
+      border-radius: 18px;
+      font-size: 1rem;
+      box-shadow: 0 2px 8px rgba(67, 198, 172, 0.2);
+      transition: 0.3s;
+    }
+
+    .skills-section:hover {
+      transform: scale(1.05);
+      background: #5ae086;
+    }
+
+    .interest-entry {
+      display: inline-block;
+      background-color: beige;
+      color: #333;
+      padding: 12px 24px;
+      margin: 10px 8px;
+      border-radius: 18px;
+      font-size: 1.1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .interest-entry:hover {
+      transform: scale(1.07);
+      box-shadow: 0 4px 16px rgba(67, 198, 172, 0.2);
+      background: #f8ffae;
+    }
+
+    .footer-heading {
+      font-size: 1.5rem;
+      text-align: center;
+      color: transparent;
+      background: linear-gradient(90deg, #ff6ec4, #7873f5);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 2px;
+      padding: 30px 0;
+    }
+
+    .footer-heading::after {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: rgba(255, 255, 255, 0.4);
+      margin: 10px auto 0;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .contact img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #666;
+      margin-top: 20px;
+    }
+
+    .project-entry {
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px 0;
+      background: #fdfdfd;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h1>Hi, I'm <span class="highlight">Bhumi Singh</span> 👋</h1>
+    <p>
+      Currently pursuing <span class="highlight">B.Tech in Computer Science</span> from<br>
+      <img src="img/banner-01.jpg" alt="KIT Logo" width="80px"> Kanpur Institute Of Technology.
+    </p>
+    <p>
+      I love learning new things, especially in the world of <span class="highlight">tech and development</span>.<br>
+      I’m organized, independent, and enthusiastic about creating meaningful digital experiences.<br>
+      I'm on a journey to master <span class="highlight">web development</span> and <span class="highlight">Python</span> while embracing new challenges in college life.
+    </p>
+    <p><img src="img/imageme.jpg" alt="Bhumi Image" width="300px" style="border-radius: 20px;"></p>
+
+    <p class="quote">“Code with curiosity, build with love.” 💻❤️</p>
+
+    <h2>My Skills</h2>
+    <div class="myskills">
+      <span class="skills-section"><i class="fa-solid fa-code"></i> Web Development</span>
+      <span class="skills-section"><i class="fa-solid fa-c"></i> C Language (Basics)</span>
+      <span class="skills-section"><i class="fa-brands fa-html5"></i> HTML</span>
+      <span class="skills-section"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+      <span class="skills-section"><i class="fa-solid fa-clock"></i> Time Management</span>
+      <span class="skills-section"><i class="fa-solid fa-lightbulb"></i> Creative Thinking</span>
+    </div>
+    <p style="font-size: 0.95rem; color: #555;">🤫 These are beginner-level skills — I'm constantly learning, improving, and experiencing new things.</p>
+
+    <h2>My Interests</h2>
+    <div class="interest-entry">❤️ Creating aesthetically pleasing webpages</div>
+    <div class="interest-entry">📚 Reading books on personal growth</div>
+    <div class="interest-entry">🧠 Exploring tools to improve productivity and learning</div>
+
+    <h2>My Projects</h2>
+    <div class="project-entry">
+      <h3>✨ Portfolio Website</h3>
+      <p>Built using HTML & CSS. Represents who I am, what I do, and how to connect with me!</p>
+      <a href="https://github.com/Bhumi678" target="_blank">View Code</a>
+    </div>
+
+    <h2>Connect With Me</h2>
+    <div class="contact">
+      <p>
+        <img src="img/instagram-logo-1155105798346ilx9kcc6.png" width="20px" alt="">
+        <a href="https://www.instagram.com/bhumisingh._6?igsh=cTdmZWtqZnRoMWpz" target="_blank" rel="noopener noreferrer">
+          <i class="fab highlight">Instagram:</i> bhumisingh._6
+        </a>
+      </p>
+      <p>
+        <img src="img/linkedin-logo-linkedin-icon-transparent-free-png.webp" width="25px" alt="">
+        <a href="https://www.linkedin.com/in/bhumi-singh-33605335a" target="_blank" rel="noopener noreferrer">
+          <i class="fab highlight">LinkedIn:</i> bhumi-singh-33605335a
+        </a>
+      </p>
+      <p>
+        <img src="img/social-media-computer-icons-github-symbol-png-favpng-m7A7Ld38cZyVV9u3GqVyFC5HD.jpg" width="25px" alt="">
+        <a href="https://github.com/Bhumi678" target="_blank" rel="noopener noreferrer">
+          <i class="fab highlight">GitHub:</i> Bhumi678
+        </a>
+      </p>
+    </div>
+
+    <footer>
+      <h2 class="footer-heading">Made with ❤️ by Bhumi Singh</h2>
+    </footer>
+  </section>
+</body>
+</html>
